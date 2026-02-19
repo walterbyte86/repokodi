@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.repokodi"
+       name="Repo Repokodi"
+       version="1.0.0"
+       provider-name="TuNombre">
+  <extension point="xbmc.addon.repository">
+    <dir>
+      <info>https://raw.githubusercontent.com/walterbyte86/repokodi/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/walterbyte86/repokodi/main/addons.xml.md5</checksum>
+      <datadir>https://raw.githubusercontent.com/walterbyte86/repokodi/main/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Repositorio personalizado</summary>
+    <description lang="en_GB">Descripción del repo</description>
+    <platform>all</platform>
+  </extension>
+</addon>
